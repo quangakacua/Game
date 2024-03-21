@@ -31,19 +31,19 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pnlcheckboard = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.picAvatar = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.txtLAN = new System.Windows.Forms.TextBox();
-            this.picAvatarMark = new System.Windows.Forms.PictureBox();
             this.progressTime = new System.Windows.Forms.ProgressBar();
             this.txtPlayer = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.picAvatarMark = new System.Windows.Forms.PictureBox();
+            this.picAvatar = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatarMark)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlcheckboard
@@ -61,16 +61,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(288, 288);
             this.panel2.TabIndex = 1;
-            // 
-            // picAvatar
-            // 
-            this.picAvatar.Image = global::GameCARO.Properties.Resources._359406731_761869939280399_7770462020478364278_n;
-            this.picAvatar.Location = new System.Drawing.Point(0, 0);
-            this.picAvatar.Name = "picAvatar";
-            this.picAvatar.Size = new System.Drawing.Size(288, 288);
-            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picAvatar.TabIndex = 0;
-            this.picAvatar.TabStop = false;
             // 
             // panel3
             // 
@@ -113,17 +103,6 @@
             this.txtLAN.TabIndex = 3;
             this.txtLAN.Text = "127.0.0.1";
             // 
-            // picAvatarMark
-            // 
-            this.picAvatarMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picAvatarMark.Image = global::GameCARO.Properties.Resources.tải_xuống__2_;
-            this.picAvatarMark.Location = new System.Drawing.Point(157, 3);
-            this.picAvatarMark.Name = "picAvatarMark";
-            this.picAvatarMark.Size = new System.Drawing.Size(128, 120);
-            this.picAvatarMark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picAvatarMark.TabIndex = 2;
-            this.picAvatarMark.TabStop = false;
-            // 
             // progressTime
             // 
             this.progressTime.Location = new System.Drawing.Point(12, 43);
@@ -151,6 +130,27 @@
             this.label2.Text = "CaroWorld";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // picAvatarMark
+            // 
+            this.picAvatarMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picAvatarMark.Image = global::GameCARO.Properties.Resources._359406731_761869939280399_7770462020478364278_n;
+            this.picAvatarMark.Location = new System.Drawing.Point(157, 3);
+            this.picAvatarMark.Name = "picAvatarMark";
+            this.picAvatarMark.Size = new System.Drawing.Size(128, 120);
+            this.picAvatarMark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picAvatarMark.TabIndex = 2;
+            this.picAvatarMark.TabStop = false;
+            // 
+            // picAvatar
+            // 
+            this.picAvatar.Image = global::GameCARO.Properties.Resources._359406731_761869939280399_7770462020478364278_n;
+            this.picAvatar.Location = new System.Drawing.Point(0, 0);
+            this.picAvatar.Name = "picAvatar";
+            this.picAvatar.Size = new System.Drawing.Size(288, 288);
+            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picAvatar.TabIndex = 0;
+            this.picAvatar.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -164,10 +164,10 @@
             this.Name = "Form1";
             this.Text = "CaroWorld";
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatarMark)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
             this.ResumeLayout(false);
 
         }
