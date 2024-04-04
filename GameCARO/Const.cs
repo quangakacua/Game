@@ -13,5 +13,9 @@ namespace GameCARO
 
         public static int ChessBoardWidth = 20;
         public static int ChessBoardHeight = 20;
+
+        public static int CoolDownStep = 100;
+        public static int CoolDownTime = 10000;
+        public static int CoolDownInterval = 100;
     }
 }
