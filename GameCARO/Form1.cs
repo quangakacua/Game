@@ -38,7 +38,7 @@ namespace GameCARO
         {
             timerCoolDown.Stop();
             pnlcheckboard.Enabled = false;
-            MessageBox.Show("Kết Thúc"+ winnerName + "win");
+            MessageBox.Show("Kết Thúc "+ winnerName + " win");
         }
         private void ChessBoard_PlayerMarked(object sender, EventArgs e)
         {
@@ -66,10 +66,7 @@ namespace GameCARO
             
             progressTime.Value = 0;
         }
-        void Undo()
-        {
-
-        }
+       
         void Quit()
         {
             Application.Exit();
@@ -86,7 +83,7 @@ namespace GameCARO
 
         private void unDoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Undo();
+           
         }
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)

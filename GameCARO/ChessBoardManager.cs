@@ -220,7 +220,6 @@ namespace GameCARO
         {
             Point point = GetChessPoint(btn);
             int countTop = 0;
-            // Kiểm tra đường chéo phía trên và bên phải của ô hiện tại
             for (int i = 0; i <= Math.Min(point.X, Const.ChessBoardHeight - point.Y - 1); i++)
             {
                 if (Matrix[point.Y + i][point.X - i].BackgroundImage == btn.BackgroundImage)
@@ -231,7 +230,6 @@ namespace GameCARO
                     break;
             }
             int countDown = 0;
-            // Kiểm tra đường chéo phía dưới và bên trái của ô hiện tại
             for (int i = 1; i <= Math.Min(Const.ChessBoardWidth - point.X - 1, point.Y); i++)
             {
                 if (Matrix[point.Y - i][point.X + i].BackgroundImage == btn.BackgroundImage)
